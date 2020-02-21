@@ -1,0 +1,117 @@
+ul {
+    list-style: none;
+    float: left;
+}
+
+li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.product-type {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    /* box-shadow: darkgrey 10px 0px 10px 1px ;   边框阴影 */
+    border-bottom: 1px solid darkgrey;
+}
+
+.product-type ul {
+    margin: 0px;
+    color: #000308b6;
+    width: 80%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.product-type ul li {
+    width: 20%;
+    height: 100%;
+    /* text-align: center; */
+}
+
+.product-type ul li:hover {
+    cursor: pointer;
+    box-shadow: darkgrey 10px 10px 20px 1px ;
+    /* background-color: blueviolet; */
+}
+
+.product-type ul li span {
+    margin-top: 50%;
+    height: 50%;
+    vertical-align: middle;
+}
+
+/* 产品列表样式 */
+.product-list {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.pro-item {
+    width: 100%;
+    /* background-color: chartreuse; */
+    /* border-bottom: 2px solid red; */
+}
+
+.pro-item ul {
+    /* border-bottom: 2px solid red; */
+}
+.pro-item ul li {
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    margin: 0 20px 50px 0;
+}
+
+.pro-img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    transition: All 0.4s ease-in-out;
+}
+
+.pro-img:hover {
+    transition: All 0.4s ease-in-out;
+    transform: translate(-4px,-5px);   /* 第一个参数表示水平移动，第二个参数表示垂直移动 */
+    box-shadow: darkgrey 10px 10px 20px 1px ;
+}
+
+/* 产品分页 */
+.pro-page {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px 60px 0px;
+    text-align: center;
+}
+
+.page-container {
+    width: 70%;
+}
+
+.pro-page a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0px 3px;
+    text-align: center;
+}
+
+
+/* 详情页 */
+.productinfo {
+    width: 100%;
+}
+
+.productinfo-img {
+    width: 100%;
+    font-size: 0;
+}
+
+.productinfo img {
+    vertical-align:top;
+}

@@ -1,0 +1,98 @@
+body{
+    background-color: #e6e6e6;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#ImgApp{
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px/5px;
+    text-align: center;
+}
+
+.playImage {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.graph{
+    /* margin-top: 30px; */
+    width: 100%;
+    height: 100%;
+    /* border-radius: 8px/8px; */
+    margin: 0 auto;
+}
+
+#leftB,#rightB{
+    font-size: 80px;
+    position: absolute;
+    top: 45%;
+    color: aliceblue;
+}
+
+#leftB {
+    left: +5%;
+}
+
+#rightB{
+    right: +5%;
+}
+
+#leftB:hover,#rightB:hover{
+    /* background-color: lightgray; */
+    border-radius:5px/5px;
+    color: black;
+}
+
+#leftB:active,#rightB:active{
+    /* background-color: darkgray; */
+    border-radius:5px/5px;
+}
+
+.points{
+    letter-spacing: 40px;
+    margin-top: 20px;
+}
+
+#isPlay{
+    /* float: right; */
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    border: solid 3px deepskyblue;
+    border-radius: 3px/3px;
+    width: 3em;
+    height: 30px;
+    line-height: 30px;
+}
+
+#isPlay:hover{
+    background-color: deepskyblue;
+    border: 1px;
+    border-color: blue;
+}
+
+#isPlay:active{
+    background-color: dodgerblue;
+}
+
+.controlTime{
+    word-spacing: 10px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#controlAdd,#controlReduce{
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 5px/5px;
+    width: 90px;
+}

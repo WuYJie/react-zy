@@ -1,0 +1,158 @@
+.about-zy {
+    background-color: white;
+}
+
+.aboutzy {
+    width: 100%;
+    overflow: hidden;
+    /* background: linear-gradient(60deg, #fff,rgb(46, 46, 48));   设置背景色渐变 */
+}
+
+.aboutzytitle {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.zbout_context {
+    width: 96%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* position: relative; */
+}
+
+.aboutzy_img {
+    overflow: hidden;
+    /* height: 80%; */
+    width: 50%;
+    /* bottom: 8%; */
+    float: left;
+    /* position: absolute; */
+}
+
+.aboutzy_desc {
+    width: 40%;
+    margin: 10% 5% 0 5%;
+    text-align: center;
+    /* bottom: 8%; */
+    float: left;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.content-title {
+    margin-bottom: 100px;
+}
+
+.main-title {
+    color: #e6002d;
+    font-size: 24px;
+    font-family: akBold;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-size: 24px;
+    color: #1a1a1a;
+    margin: 0;
+    line-height: 1;
+}
+
+.values-wrapper {
+    height: 300px;
+    background-color: #e6002d;
+}
+
+.philosophy-wrapper {
+    margin-left: 10%;
+    height: 280px;
+    width: 80%;
+    /* background-color: blue; */
+    /* margin: 0 auto; */
+}
+
+.philosophy-item {
+    width: 25%;
+    height: 200px;
+    margin: 0 4%;
+    float: left;
+    text-align: center;
+    border-bottom: 2px solid  #e6002d;
+}
+
+.philosophy-item .item .title {
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 46px;
+    color: #1a1a1a;
+}
+
+.philosophy-item .item .desc p {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-family: 'SiYuan-ExtraLig14de59c11418f5e', 微软雅黑, 'Microsoft YaHei';
+    font-weight: 100;
+    /* line-height: 1.5; */
+    line-height: 2;
+}
+
+.brand {
+    /* background-color: rgb(rgb(136, 77, 77), rgb(49, 206, 49), rgb(123, 123, 139)); */
+    /* background-color: #ffffff; */
+    /* opacity: 0.2; */
+}
+
+.aboutzy-brand {
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.brand-banner {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 380px;
+    margin-top: 100px;
+}
+
+.aboutzy.ppjs {
+    width: 60%;
+    margin: 0 auto;
+    height: 380px;
+    text-align: center;
+}
+
+.brand-title .title-en {
+    color: #e6002d;
+    font-size: 24px;
+    font-family: akBold;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+
+

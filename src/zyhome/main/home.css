@@ -1,0 +1,190 @@
+.zy_main {
+    background: rgb(176, 176, 180);
+}
+
+.photoPlay {
+    width: 80%;
+    background-color: blue;
+    margin: 0 auto; /* 将div居中 */
+}
+
+.new-product{
+    width: 100%;
+    /* height: 400px; */
+}
+
+.new-product p{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.new-product-msg {
+    width: 1200px;
+    /* position: relative; */
+    margin: auto;
+}
+
+.new-product-item {
+    height: 500px;
+    margin: 1%;
+    float: left;
+    transition: all 1s;
+    overflow: hidden;
+    position: relative; /* 相对定位 */
+}
+
+.new-product-item:hover {
+    transition: all 1s;
+    background-color: rgb(195, 204, 195);
+    box-shadow: darkgrey 5px 5px 20px 5px ;   /* 边框阴影*/
+}
+
+/* .new-product-item a {
+    margin-top: 10%;
+} */
+
+.product-img.x {
+    height: 75%;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    /* position: absolute; 绝对定位 */
+}
+
+.product-img.x img {
+    background-color: lawngreen;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: all 1s;
+}
+
+.product-img.d {
+    height: 100%;
+    width: 70%;
+    float: left;
+    /* background-color: blueviolet; */
+    /* overflow: hidden; */
+    /* margin: 0 auto; */
+    /* position: absolute; 绝对定位 */
+}
+
+.product-img.d img {
+    background-color: lawngreen;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: all 1s;
+}
+
+.product-desc a {
+    float: right;
+    height: 80%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.product-desc.x {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.product-desc.d {
+    width: 25%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 2%;
+}
+
+
+.product-img img:hover {
+    transition: all 1s;
+    transform: scale(1.05);
+}
+
+.new-product-item.x {
+    width: 48%;
+    /* background-color: blueviolet; */
+}
+
+.new-product-item.d { 
+    /* background-color: brown; */
+    width: 98%;
+    background-image: url(./img/1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.product-title {
+    font-size: 24px;
+}
+
+/* 特别推荐 */
+
+.special-product {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.special-product p{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.special-product-msg {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.special-product-item {
+    width: 100%;
+    height: 500px;
+    /* background-color: blue */
+}
+
+.special-product-item {
+    /* margin: 60px 0px 20px 0px; */
+    overflow: hidden;
+    background: linear-gradient(60deg, #fff,rgb(46, 46, 48));   /* 设置背景色渐变*/
+}
+
+.sproduct-desc {
+    height: 100%;
+    width: 38%;
+    margin-top: 10%;
+    text-align: center;
+    transition: all 1s;
+}
+
+.sproduct-desc:hover {
+    transition: all 1s;
+    color: white;
+}
+
+.sproduct-detail {
+    margin-top: 12%;
+}
+
+.sproduct-img {
+    overflow: hidden;
+}
+
+.sproduct-img.left {
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: darkgrey;
+}
+.sproduct-desc.right {
+    float: right;
+}
+
+.sproduct-img.right {
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-color: darkgrey;
+}
+
+.sproduct-desc.left {
+    float: left;
+}

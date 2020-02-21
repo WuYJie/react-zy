@@ -1,0 +1,52 @@
+.ZY-top {
+    height: 105px;
+    background-color: #f0f2f7b6;
+}
+
+.ZY-logo {
+    margin-left: 6%;
+    float: left;
+}
+
+li {
+    list-style:none;
+}
+
+.ZY-top ul {
+    white-space: nowrap;
+    float: left;
+    margin-top: 4%;
+    color: #000308b6;
+    width: 60%;
+    font-size: 18px;
+}
+
+.ZY-top ul li {
+    width: 15%;
+    list-style:none;
+    float: left;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+}
+
+/* 以上是top的样式，以下是中间样式 */
+
+.ZY-div2 {
+    /* background-color: rgb(158, 184, 190); */
+    width: 100%;
+    /* height: 500px; */
+}
+
+/* 以上是中间的样式，以下是底部样式 */
+
+.ZY-div3 {
+    background-color: #282c34;
+    width: 100%;
+    height: 60px;
+    color: aliceblue;
+    font-size: 14px;
+    display: inline-block;
+}
